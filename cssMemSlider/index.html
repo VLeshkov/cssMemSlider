@@ -4,9 +4,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Meme Slider</title>
 </head>
 <body>
-  
+  <div class="main-container">
+    <input type="radio" name="slide-btn" id="slide-1" checked>
+    <input type="radio" name="slide-btn" id="slide-2">
+    <input type="radio" name="slide-btn" id="slide-3">
+    <input type="radio" name="slide-btn" id="slide-4">
+
+    <div class="slides-container">
+      <div class="slides">
+        <div class="slide"><img src="./assets/1.jpg" alt=""></div>
+        <div class="slide"><img src="./assets/2.jpg" alt=""></div>
+        <div class="slide"><img src="./assets/3.jpg" alt=""></div>
+        <div class="slide"><img src="./assets/4.jpg" alt=""></div>
+      </div>
+    </div>
+
+    <div class="controls-container">
+      <div class="slides-container">
+        <div class="captions">
+          <p class="caption">Front-end guys <br> we need your help</p>
+          <p class="caption">arrays are objects...?</p>
+          <p class="caption">Javascript everywhere</p>
+          <p class="caption">CSS is awesome</p>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <label for="slide-1"><div class="circle"></div></label>
+        <label for="slide-2"><div class="circle"></div></label>
+        <label for="slide-3"><div class="circle"></div></label>
+        <label for="slide-4"><div class="circle"></div></label>
+      </div>
+    </div>
+  </div>  
 </body>
 </html>
+
+<!-- 
+
+  git message timestamp:
+  `LANG=en_EN date +'(%a, %b %d, %Y %r)'`
+
+-->
